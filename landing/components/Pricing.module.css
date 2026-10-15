@@ -1,0 +1,108 @@
+.pricing {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #f8fafc;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  margin-bottom: 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cardHighlight {
+  border-color: #2563eb;
+  background-color: #1e293b;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.2);
+}
+
+.planName {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #f8fafc;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list li {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: 1px solid #334155;
+  background-color: #334155;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #475569;
+}
+
+.btnPrimary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btnPrimary:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    padding: 50px 16px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "kt2-kucher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "КТ2: Мини-проект «Статический лендинг» на Next.js (App Router)",
+  "scripts": {
+    "dev": "npm --prefix landing run dev",
+    "build": "npm --prefix landing run build",
+    "start": "npm --prefix landing run start",
+    "lint": "npm --prefix landing run lint"
+  }
+}
